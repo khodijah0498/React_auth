@@ -1,0 +1,33 @@
+.App {
+  @apply w-screen h-screen;
+}
+.Home {
+  @apply w-full h-full overflow-hidden bg-gray-300 flex flex-col items-center justify-center;
+}
+.Home button {
+  @apply px-4 w-[7rem];
+}
+.Home button.login {
+  @apply bg-yellow-100;
+}
+.Home button.signup {
+  @apply bg-transparent border-[1px] border-white  mt-2;
+}
+
+.Form {
+  @apply flex flex-col items-center justify-center h-full;
+}
+.Form form {
+  @apply flex flex-col bg-gray-100 p-3 shadow-md rounded-sm;
+}
+.Form input {
+  @apply border-[1px] border-blue-200 outline-none mb-2 px-0.5 rounded-sm;
+}
+
+.Form button {
+  @apply bg-white border-none w-1/2 mx-auto rounded-sm;
+}
+
+.Form .signupOption {
+  @apply text-[0.5rem] mt-1;
+}
